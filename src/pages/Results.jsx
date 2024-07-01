@@ -145,19 +145,19 @@ const Results = () => {
                            <p className='yekan-regular clrseventext ' style={{paddingBottom:'1rem'}}>
                                ما را در شبکه های اجتماعی دنبال کنید:
                            </p>
-                           <Link to='https://t.me/s_a_ghazizadeh' target='_blank'>
+                           <Link to='https://t.me/saeedjalilysetad' target='_blank'>
                                <img src="/asset/images/telegram.png" alt="telegram"  style={{maxWidth:'2.5rem' , marginRight:'0.5rem' , marginLeft:'0.5rem ' , backgroundColor:'white' , borderRadius:'0.6rem' , padding:'0.1rem'}}/>
                            </Link>
 
-                           <Link to='https://eitaa.com/s_a_ghazizadeh' target='_blank'>
+                           <Link to='https://eitaa.com/@saeedjalily' target='_blank'>
                                <img src="/asset/images/ita.png" alt="ita"  style={{maxWidth:'2.5rem' , marginRight:'0.5rem' , marginLeft:'0.5rem ' , backgroundColor:'white' , borderRadius:'0.6rem' , padding:'0.1rem'}}/>
                            </Link>
 
-                           <Link to='https://ble.ir/s_a_ghazizadeh' target='_blank'>
+                           <Link to='https://ble.ir/@saeedjalily' target='_blank'>
                                <img src="/asset/images/bale.png" alt="bale"  style={{maxWidth:'2.5rem' , marginRight:'0.5rem' , marginLeft:'0.5rem ' , backgroundColor:'white' , borderRadius:'0.6rem' , padding:'0.1rem'}}/>
                            </Link>
 
-                           <Link to='https://rubika.ir/s_a_ghazizadeh' target='_blank'>
+                           <Link to='https://rubika.ir/@saeedjalily' target='_blank'>
                                <img src="/asset/images/rubica.png" alt="rubica"  style={{maxWidth:'2.5rem' , marginRight:'0.5rem' , marginLeft:'0.5rem ' , backgroundColor:'white' , borderRadius:'0.6rem' , padding:'0.1rem'}}/>
                            </Link>
 
