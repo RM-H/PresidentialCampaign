@@ -1,7 +1,7 @@
 import axios from "axios";
 
-export const url = 'https://ghazizadehsetad.com/api/v1'
-export const baseurl = 'https://ghazizadehsetad.com'
+export const url = 'https://saeedjalilysetad.com/api/v1'
+export const baseurl = 'https://saeedjalilysetad.com'
 
 
 

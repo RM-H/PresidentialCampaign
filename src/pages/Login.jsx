@@ -83,7 +83,7 @@ const Login = () => {
 
             <div
 
-                 style={{width: "100wv", height: '100vh' , display:'flex', justifyContent:'center' , alignItems:'center' , backgroundImage:'url(/asset/images/wallpaper.png)' , backgroundSize:'cover' , backgroundRepeat:'no-repeat'}}>
+                 style={{width: "100wv", height: '100vh' , display:'flex', justifyContent:'center' , alignItems:'center' , backgroundImage:'url(/asset/images/wallpaper2.webp)' , backgroundSize:'cover' , backgroundRepeat:'no-repeat'}}>
 
 
 
@@ -96,14 +96,14 @@ const Login = () => {
 
 
                 <div className="main-login " style={{
-                    backgroundColor: 'rgba(9,9,9,0.6)',
+                    backgroundColor: 'hsl(0deg 0% 20%)',
                     backdropFilter: 'blur(0.1rem)'
                 }}>
                     <input type="checkbox" id="chk" aria-hidden="true"/>
 
                     <div className="signup is-size-5 has-text-centered yekan-regular">
 
-                        <img src='/asset/images/logo.png' width='42%' />
+                        <img src='/asset/images/logo1.jpg' width='100%' />
 
 
 
@@ -123,7 +123,7 @@ const Login = () => {
 
 
                                     <label htmlFor="chk" aria-hidden="true">ورود/ثبت نام</label>
-                                    <img src='/asset/images/logo2.webp' />
+
                                     <Field disabled={isregistered} className='yekan' type="text" id="phone" name="phone"
                                            placeholder="شماره تلفن"/>
                                     <ErrorMessage style={{textAlign:'center' , color:'white'}} component='p' className='yekan-regular '

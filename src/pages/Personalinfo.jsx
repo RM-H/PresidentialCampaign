@@ -183,25 +183,18 @@ const Personalinfo = () => {
 
     return (
         <>
-            <Grid container className='toppad' sx={{px: 3 , textAlign:'center'}}>
-                <Grid xs={12} sm={1}
-                      sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
+            <Grid container  sx={{px: 2 , pt:{xs:6,md:0} , minHeight:'100dvh' , textAlign:'center' ,backgroundImage:'url(/asset/images/wallpaper2.webp)' , backgroundSize:'cover' , backgroundRepeat:'no-repeat' ,display:'flex' ,alignItems:'center'}}>
 
 
-                    <img src='/asset/images/logo.png' style={{maxHeight: '7rem'}}/>
 
-
-                </Grid>
-
-
-                <Grid xs={12} sm={11}>
-                    <Grid container sx={{justifyContent:'center'}}>
+                <Grid xs={12} >
+                    <Grid container sx={{justifyContent:'center' }}>
                         <Grid xs={12}>
 
 
                             <form onSubmit={formik.handleSubmit} className='yekan-regular'>
-                                <Grid container columnSpacing={3} rowSpacing={5}
-                                      sx={{'& .MuiInputBase-root': {fontFamily: 'yekan-reg'}}}>
+                                <Grid container columnSpacing={3} rowSpacing={5} className='shadowone'
+                                      sx={{'& .MuiInputBase-root': {fontFamily: 'yekan-reg'} , p:3 , bgcolor:'#ffffff' , borderRadius:'0.6rem'}}>
                                     <Grid xs={12} sm={6}>
                                         <FormControl className='w100 yekan-regular' variant="outlined">
 

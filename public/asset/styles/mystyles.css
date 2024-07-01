@@ -40,26 +40,26 @@ body {
 
 
 .clrone {
-    background-color: #252525 !important;
+    background-color: #1295ac !important;
 }
 .clrtwo {
     background-color: rgba(9,9,9,0.6);
 }
-.clrtwotext {
-    color: #1B95A2;
+.clronetext {
+    color: #1295ac;
 }
 .clrthree {
-    background-color: #737375;
+    background-color: #273574;
 }
 
 .clrfour {
-    background-color: #E1C886;
+    background-color: #1f5f99;
 }
 .clrfive {
-    background-color: #AB9D7C;
+    background-color: #10a240;
 }
-.clrsixtext {
-    color: #FF4941;
+.clrsix {
+    background-color: #bd1522;
 }
 
 .clrseventext {
@@ -117,7 +117,7 @@ body {
 }
 
 .toppad {
-    padding-top: 6rem;
+    padding-top: 1rem;
 }
 
 
@@ -126,7 +126,7 @@ body {
 /*  shadows   */
 /*-------------------------*/
 .shadowone {
-    box-shadow: 0.3rem 0.3rem 0.6rem 0px rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 0rem 0.9rem 0.9rem 0px rgba(0, 0, 0, 0.5) !important;
 
 }
 
@@ -225,11 +225,12 @@ body {
 
 .main-login .login {
     height: 460px;
-    background-color: #252525;
+    background-color: #10a240;
     text-align: center;
 
+
     border-radius: 60% / 10%;
-    transform: translateY(-180px);
+    transform: translateY(-200px);
     transition: .6s ease-in-out;
 }
 
@@ -237,6 +238,8 @@ body {
     color: #f9f9fa;
     transform: scale(.7);
     font-family: 'yekan-reg';
+    margin-top:5rem;
+    padding-top: 1rem;
 
     font-size: 3.1rem;
 }

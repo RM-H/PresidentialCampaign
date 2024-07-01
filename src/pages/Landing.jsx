@@ -15,7 +15,7 @@ const Landing = () => {
 
             <Typography component='h1' variant='h5' className='yekan-regular' sx={{fontWeight:'bold'}}>
                 ستاد مجازی
-                دکتر سید امیرحسین قاضی‌زاده هاشمی
+                دکتر سعید جلیلی
 
             </Typography>
 
@@ -71,45 +71,62 @@ const Landing = () => {
     return (
         <>
 
-            <Grid container className='toppad' sx={{px: 6,minHeight:'100vh'  , backgroundImage: 'url(/asset/images/wallpaper.png)',
+            <Grid container className='' sx={{py:'auto', px: 6,minHeight:'100dvh'  , backgroundImage: 'url(/asset/images/wallpaper2.webp)',
                 backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat'}}>
+                backgroundRepeat: 'no-repeat' ,
+                display:'flex',
+                alignItems:'center'
+            }}>
 
-                <Grid xs={12}>
-                    <Paper elevation={6} sx={{p: 3 , pt:0 , textAlign:'center'}}>
+                <Grid xs={12} sx={{textAlign:'center'}}>
+
+                    <Paper elevation={9} sx={{
+                        '&.MuiPaper-root': {
+                            backgroundColor: 'rgba(255,255,255,0.42)',
+                            backdropFilter: 'blur(0.3rem)'
+                        },
+                        p: 3,
+                        textAlign: 'center',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        minHeight: '72dvh'
+                    }}>
 
 
-                        <img src='/asset/images/logo2.webp' style={{maxHeight:'5rem' , transform:'translateY(-2.5rem)'}}/>
                         <Grid container>
-                            <Grid xs={12} sm={6}>
-                                <img src="/asset/images/dr.jpg" alt="person" style={{maxWidth: '90%' , borderRadius:'1rem'}}/>
+                            <Grid xs={12} sm={6} sx={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                                <img src="/asset/images/dr.webp" alt="person"
+                                     style={{maxWidth: '95%', borderRadius: '1rem'}}/>
                             </Grid>
 
 
-                            <Grid xs={12} sm={6} sx={{display:'flex',flexDirection:'column',justifyContent:'center'  , alignItems:'center'}}>
+                            <Grid xs={12} sm={6} sx={{
+                                display: 'flex',
+                                flexDirection: 'column',
+                                justifyContent: 'center',
+                                alignItems: 'center'
+                            }}>
+                                <img src='/asset/images/flag.webp'
+                                     style={{maxHeight: '6rem', transform: 'translateY(-2.5rem)'}}/>
 
                                 {content}
 
 
-
-
                             </Grid>
 
 
-
                             {
-                                page !==0 &&     <Grid xs={12} sx={{mt:3}}>
+                                page !== 0 && <Grid xs={12} sx={{mt: 3}}>
 
 
-
-                                    <Button variant='contained' color='primary' className='yekan-regular w100' disabled={!read} onClick={()=>nav('/login')}>
+                                    <Button variant='contained' color='primary' className='yekan-regular w100'
+                                            disabled={!read} onClick={() => nav('/login')}>
                                         ادامه
                                     </Button>
 
                                 </Grid>
                             }
-
-
 
 
                         </Grid>

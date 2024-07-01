@@ -122,7 +122,7 @@ const Results = () => {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                backgroundImage: 'url(/asset/images/wallpaper.png)',
+                backgroundImage: 'url(/asset/images/wallpaper2.webp)',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat'
             }}>
