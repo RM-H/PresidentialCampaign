@@ -149,9 +149,9 @@ const Results = () => {
                                <img src="/asset/images/telegram.png" alt="telegram"  style={{maxWidth:'2.5rem' , marginRight:'0.5rem' , marginLeft:'0.5rem ' , backgroundColor:'white' , borderRadius:'0.6rem' , padding:'0.1rem'}}/>
                            </Link>
 
-                           <Link to='https://eitaa.com/@saeedjalily' target='_blank'>
-                               <img src="/asset/images/ita.png" alt="ita"  style={{maxWidth:'2.5rem' , marginRight:'0.5rem' , marginLeft:'0.5rem ' , backgroundColor:'white' , borderRadius:'0.6rem' , padding:'0.1rem'}}/>
-                           </Link>
+                           {/*<Link to='https://eitaa.com/@saeedjalily' target='_blank'>*/}
+                           {/*    <img src="/asset/images/ita.png" alt="ita"  style={{maxWidth:'2.5rem' , marginRight:'0.5rem' , marginLeft:'0.5rem ' , backgroundColor:'white' , borderRadius:'0.6rem' , padding:'0.1rem'}}/>*/}
+                           {/*</Link>*/}
 
                            <Link to='https://ble.ir/@saeedjalily' target='_blank'>
                                <img src="/asset/images/bale.png" alt="bale"  style={{maxWidth:'2.5rem' , marginRight:'0.5rem' , marginLeft:'0.5rem ' , backgroundColor:'white' , borderRadius:'0.6rem' , padding:'0.1rem'}}/>
